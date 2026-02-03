@@ -1,52 +1,53 @@
-/* Page background and base text */
+/* Page background */
 body {
-    background-color: #b7dfe9;
+    background-color: #b9dfe8;
     font-family: Georgia, "Times New Roman", serif;
     margin: 0;
-    padding: 0 20px;
+    padding: 0 15px 30px;
     color: #000;
 }
 
-/* Main header */
+/* Main title */
 h1 {
     text-align: center;
-    font-size: 48px;
-    margin: 20px 0 10px;
+    font-size: 52px;
+    font-weight: bold;
+    margin: 20px 0 30px;
 }
 
 /* Section headers */
 h2 {
-    font-size: 28px;
-    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 15px;
 }
 
 h3 {
     font-size: 22px;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
-/* Paragraph spacing */
+/* Paragraph defaults */
 p {
-    line-height: 1.5;
-    margin-bottom: 16px;
+    line-height: 1.6;
+    margin-bottom: 18px;
 }
 
-/* Second paragraph styling */
+/* Highlighted second paragraph */
 #paragraph2 {
-    width: 75%;
-    margin: 20px auto;
-    padding: 15px 20px;
-    border: 4px solid green;
+    width: 80%;
+    margin: 25px auto;
+    padding: 18px 25px;
+    border: 4px solid #008000;
     background-color: #ffffff;
     line-height: 1.8;
 }
 
-/* Blue paragraph blocks */
+/* Blue paragraphs (4 & 5) */
 .blue {
     background-color: #00008b;
     color: #ffffff;
-    padding: 15px;
-    margin: 15px 0;
+    padding: 18px;
+    margin: 20px 0;
 }
 
 /* Ordered list formatting */
@@ -55,7 +56,7 @@ ol {
     margin-left: 40px;
 }
 
-/* List item links */
+/* List links */
 ol li a {
     color: #0000cc;
     text-decoration: none;
@@ -65,7 +66,7 @@ ol li a:hover {
     text-decoration: underline;
 }
 
-/* W3Schools link color (different from list links) */
+/* W3Schools link (unique color) */
 a[href*="w3schools"] {
     color: #800080;
     font-weight: bold;
@@ -73,9 +74,9 @@ a[href*="w3schools"] {
 
 /* Table styling */
 table {
-    border-collapse: collapse;
     width: 100%;
-    margin-top: 15px;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
 /* Table borders */
@@ -86,12 +87,12 @@ table, th, td {
 /* Table header */
 th {
     background-color: #cccccc;
-    padding: 8px;
+    padding: 10px;
     text-align: left;
 }
 
 /* Table cells */
 td {
     background-color: #eeeeee;
-    padding: 8px;
+    padding: 10px;
 }
